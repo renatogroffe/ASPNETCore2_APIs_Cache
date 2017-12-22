@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55942/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/cotacoes",
+      "environmentVariables": {
+        "ASPNETCOREENVIRONMENT": "Development"
+      }
+    },
+    "APICotacoes": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/cotacoes",
+      "environmentVariables": {
+        "ASPNETCOREENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:55943/"
+    }
+  }
+}
